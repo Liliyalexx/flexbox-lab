@@ -11,22 +11,19 @@
   
   nav {
     background-color: white;
-    padding: 10px 30px;
+    padding: 8px 16px;
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    
-  }
+    justify-content: space-between;
+}
 
-  #destinations,
-  #actions {
+#destinations, #actions {
     display: flex;
+    gap: 16px;
     align-items: center;
     align-content: space-between;
     justify-content: space-evenly;
     flex-direction: row-reverse;
-    }
-  
+}
 
  #destinations {
     justify-content: flex-start;
@@ -185,7 +182,7 @@ section {
     background-color: gray;
     border-radius: 8px;
 }
-div {
+/* div {
     display: block;
     unicode-bidi: isolate;
-}
+} */
